@@ -246,7 +246,7 @@ System-instructed Gemini models optimized for specific deadline categories — s
 
 ## 14. GitHub Repository
 
-[GitHub Repository Link — Placeholder]
+https://github.com/Ram1327/prep-pilot
 
 ---
 
