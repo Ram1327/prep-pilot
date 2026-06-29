@@ -6,3 +6,6 @@ coverage/
 *.log
 .env*
 !.env.example
+[hH]ackathon.md
+[hH]ackathon_submission.md
+[hH]ackathon_submission_copy.md
