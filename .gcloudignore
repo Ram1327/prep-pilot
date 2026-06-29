@@ -1,0 +1,8 @@
+.gcloudignore
+.git
+.gitignore
+node_modules/
+dist/
+.gemini/
+.github/
+C:\Users\ramra\.gemini\antigravity-ide\brain\*

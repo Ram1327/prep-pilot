@@ -1,0 +1,38 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "description": "User profile document",
+      "type": "object",
+      "properties": {
+        "email": { "type": "string" },
+        "name": { "type": "string" },
+        "photoURL": { "type": "string" }
+      },
+      "required": ["email", "name"]
+    },
+    "Task": {
+      "title": "Task",
+      "description": "Custom study preparation and planning roadmap task",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "deadlineType": { "type": "string" },
+        "plan": { "type": "object" },
+        "dayStatuses": { "type": "array" }
+      },
+      "required": ["title", "description", "plan"]
+    }
+  },
+  "firestore": {
+    "users/{userId}": {
+      "schema": "User",
+      "description": "User profile documents"
+    },
+    "users/{userId}/tasks/{taskId}": {
+      "schema": "Task",
+      "description": "Prep tasks for a given user"
+    }
+  }
+}
